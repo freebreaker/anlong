@@ -1,0 +1,59 @@
+.accountTable{
+    width: 78%;
+    float: right;
+}
+
+
+.accountTable p{
+    font-size: 18px;
+}
+
+
+.accountTableItem{
+    position: relative;
+    max-width: 870px;
+    height: 122px;
+    border: 1px solid #dcdcdc;
+    margin-left: 50px;
+    margin-bottom: 22px;
+    padding: 20px;
+}
+
+.accountTableItem img{
+    position: absolute;
+    display:inline-block;
+    left: 10px;
+    width:80px;
+    height: 80px;
+    border-radius:15px;
+}
+
+.accountTableItem p{
+    position: absolute;
+    top:30px;
+    left: 110px;
+}
+.accountTableItem label{
+    position: absolute;
+    color:#dcdcdc;
+    bottom:32px;
+    left: 110px;
+}
+
+.accountTableItem span{
+    position: absolute;
+    text-align:center;
+    font-size: 14px;
+    bottom:50%;
+    margin-bottom:-7px;
+    left: 250px;
+}
+
+.accountbutton{
+    width:140px;
+    position: absolute;
+    left: 80%;
+    font-size: 14px;
+    bottom:50%;
+    margin-bottom:-14px;
+}

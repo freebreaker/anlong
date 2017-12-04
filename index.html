@@ -1,0 +1,692 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords">
+    <meta name="description">
+    <meta name="360-site-verification" content="1232585f4854100ad40a790979b9ffee" />
+    <link rel="shortcut icon" href="/favicon.ico?v=1.2" type="image/x-icon">
+
+    <title>安全中心</title>
+    <link href="/Content/flexslider.css" rel="stylesheet"/>
+<link href="/Content/bootstrap.css" rel="stylesheet"/>
+<link href="/Content/datetimepicker.css" rel="stylesheet"/>
+<link href="/Content/font-awesome.css" rel="stylesheet"/>
+<link href="/Content/site.css" rel="stylesheet"/>
+<link href="/Content/coupon.css" rel="stylesheet"/>
+<link href="/Control/HFControl.css" rel="stylesheet"/>
+<link href="/Control/HFControlEx.css" rel="stylesheet"/>
+<link href="/Content/animation_key.css" rel="stylesheet"/>
+
+
+    <link href="/Content/site-responsive.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+        <script src="/Scripts/html5.js"></script>
+    <![endif]-->
+
+
+    <script src="/Scripts/jquery.js"></script>
+<script src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+<script src="/Scripts/jquery.validate.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="/Lib/myFiles/main.js"></script>
+<script src="/Scripts/jquery.tmpl.js"></script>
+<script src="/Scripts/bootstrap.js"></script>
+<script src="/Scripts/jquery.flexslider.js"></script>
+<script src="/Scripts/jquery.cookie.js"></script>
+<script src="/Scripts/jquery.timer.js"></script>
+<script src="/Scripts/bootstrap-datetimepicker.js"></script>
+<script src="/Scripts/radialIndicator.js"></script>
+<script src="/Scripts/scripts.js"></script>
+<script src="/Control/HFControl.js"></script>
+<script src="/Control/HFControlEx.js"></script>
+
+
+    
+
+    
+    
+    <script type="text/javascript">
+        $(function () {
+            ceClick($("#ce2"));
+
+            erClick($("#ce21"));
+        });
+
+        var isShow = true;
+        function showJYphonenumber() {
+            if (isShow) {
+                $("#JYphonenumberDiv").css("display", "");
+                $("#JYphonenumberDivPartent").css("height", "322px");
+            }
+            else {
+                $("#JYphonenumberDiv").css("display", "none");
+                $("#JYphonenumberDivPartent").css("height", "90px");
+            }
+            isShow = !isShow;
+        }
+
+        var isShow2 = true;
+        function showPhonenumber() {
+            if (isShow2) {
+                $("#phonenumberDiv").css("display", "");
+                $("#phonenumberDivPartent").css("height", "360px");
+            }
+            else {
+                $("#phonenumberDiv").css("display", "none");
+                $("#phonenumberDivPartent").css("height", "90px");
+            }
+            isShow2 = !isShow2;
+        }
+
+        var isShow3 = true;
+        function showEmail() {
+            if (isShow3) {
+                $("#EmailDiv").css("display", "");
+                $("#EmailDivPartent").css("height", "260px");
+            }
+            else {
+                $("#EmailDiv").css("display", "none");
+                $("#EmailDivPartent").css("height", "90px");
+            }
+            isShow3 = !isShow3;
+        }
+
+        var isShow4 = true;
+        function showQuestionnaire() {
+            if (isShow4) {
+                $("#QuestionnaireDiv").css("display", "");
+                $("#QuestionnaireDivPartent").css("height", "540px");
+            }
+            else {
+                $("#QuestionnaireDiv").css("display", "none");
+                $("#QuestionnaireDivPartent").css("height", "90px");
+            }
+            isShow4 = !isShow4;
+        }
+
+        function onSuccess(result) {
+            //$('#div1').hide();
+            $('#div2').show();
+        }
+
+        function onSuccess2(result) {
+            //$('#div33').hide();
+            $('#div3').show();
+        }
+    </script>
+    <style>
+        .modalChange {
+            position: relative;
+    left: 0px;
+    top: 0;
+    margin-left: 0;
+    background-color: rgb(247, 247, 247);
+    width: auto;
+    border: none;
+    box-shadow: none;
+        }
+    </style>
+
+
+
+    <style type="text/css">
+        .aaa a{
+            color:#969696;
+        }
+        .aaa a:hover{color:cornflowerblue !important;text-decoration:none;}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-row1" style="background-color: #f5f5f5;">
+            <div class="container">
+                <ul class="pull-right menu-list">
+                    <li>
+                        <a href="/Account" style="border-bottom-color:white;font-size:14px;color:black;">
+                            
+                                <span>您好，17191763545</span>
+                            
+                        </a>
+                    </li>
+                    <li>
+                        
+                            <a href="/Logout" style="border-bottom-color:white;text-decoration:none;"><span style="border:1px solid orange;color:orange;height:18px;line-height:18px;border-radius: 5px;padding:4px 10px;">退出</span></a>
+                        
+                    </li>
+                    <li><span>客服热线：<span style="font-size:16px;color:#000000;">400-115-8001</span></span></li>
+                </ul>
+                <div class="aaa">
+                    <span><a href="#" data-url="/Content/weixin/images/lrtk_app.png" data-2dcode="bottom"><img src="/Lib/myFiles/img/home/4.png" style="width:20px;height:18px;" /> <span style="font-size:10px;">APP下载</span></a></span>
+                    <span style="margin-left:10px;"><a href="#" data-url="/Content/weixin/images/lrtk_weixin.png" data-2dcode="bottom"><img src="/Lib/myFiles/img/home/1.png" style="width:20px;height:18px;" /> <span style="font-size:10px;">微信公众号</span></a></span>
+
+                    <span onclick="kfLink.click();" style="cursor:pointer;margin-left:10px;"><img src="/Lib/myFiles/img/home/2.png" style="width:20px;height:18px;" /></span>
+                    <span onclick="kfLink.click();" style="cursor:pointer;font-size:10px;"><a href="#">客服咨询</a> </span>
+                    <span style="margin-left:10px;"><a href="/Activity?id=17"><img src="/Lib/myFiles/img/home/3.png" style="width:20px;height:20px;" /> <span style="font-size:10px;">新手指引</span></a></span>
+                </div>
+            </div>
+        </div>
+        <div class="header-row2">
+            <div class="container" id="navMain">
+                <a class="logo" href="/" style="float:left;">
+                    <div style="float:left;"><img src="/Lib/myFiles/img/home/26.png" alt="润阳贷 logo" style="width:170px;" /></div>
+                    <div style="float:left;"><img src="/Lib/myFiles/img/home/5.png" alt="润阳贷 logo" style="width:170px;" /></div>
+                </a>
+                <div id="nav_list" style="position:relative;margin-top:15px;">
+                    <div class="rightLink">
+                        <style>
+                            .rightLink {
+                                display: block;
+                                position: absolute;
+                                right: 0px;
+                                float: right;
+                                z-index:10;
+                            }
+
+                                .rightLink .link-content a {
+                                    border-bottom: solid 3px transparent;
+                                    display: block;
+                                    color: #4e4e4e;
+                                }
+
+                                    .rightLink .link-content a:hover {
+                                        color: #38f;
+                                        border-bottom: solid 3px #38f;
+                                        cursor: pointer;
+                                        text-decoration: none;
+                                    }
+
+                            .link-content {
+                                font-size: 18px;
+                                line-height: 40px;
+                                color: #777;
+                                display: inline-block;
+                                padding: 5px 15px;
+                                vertical-align: top;
+                                border: solid 1px transparent;                                
+                            }
+
+                                .link-content a + a {
+                                    display: none !important;
+                                }
+
+                                .link-content.active {
+                                    border: solid 1px rgb(232,232,232);
+                                    background-color: rgb(252,252,252);
+                                }
+
+                                    .link-content.active a + a {
+                                        display: block !important;
+                                    }
+                        </style>
+                        <div class="link-content">
+                            <a href="/">首页</a>
+                        </div>
+                        <div class="link-content" onmouseover="$(this).addClass('active');" onmouseout="$(this).removeClass('active');">
+                            <a href="#" style="cursor: default;border-bottom-width:0px;color:#4e4e4e;">优选理财</a>
+                            <a style="font-size:16px;width:53px;" href="/PlanContent">新手标</a>
+                            <a style="font-size:16px;width:53px;" href="/InvestmentList.html">优选标</a>
+                        </div>
+                        <div class="link-content">
+                            <a href="/BorrowList">车辆借贷</a>
+                        </div>
+                        <div class="link-content" onmouseover="$(this).addClass('active');" onmouseout="$(this).removeClass('active');">
+                            <a href="#" style="cursor: default;border-bottom-width:0px;color:#4e4e4e;">信息披露</a>
+                            <a style="font-size:16px;" href="/AboutNew.html">关于我们</a></>
+                            <a style="font-size:16px;" href="/PartnerNew.html">合作企业</a>
+                            <a style="font-size:16px;" href="/YeWuChanPing.html">业务产品</a>
+                            <a style="font-size:16px;" href="/Risk.html">风险保障</a>
+                            
+                            <a style="font-size:16px;" href="/PingTaiGongGao.html">平台公告</a>
+                            <a style="font-size:16px;" href="/NewBaoDao.html">新闻报道</a>
+                            <a style="font-size:16px;" href="/XinShouGongNue.html">新手攻略</a>
+                            <a style="font-size:16px;" href="/BankDepository.html">银行存管</a>
+                            <a style="font-size:16px;" href="/FengXianTiShi.html">风险提示</a>
+                        </div>
+
+                            
+                                <div class="link-content">
+                                    <a href="/Account">我的账户</a>
+                                </div>
+
+                            
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<style>
+ul{margin: 0;}    
+li{list-style-type:none;}
+img{border:0px;vertical-align:middle;}
+a{text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());}
+.clear{clear:both;}
+.ce{display:block;width:250px;background:#f7f7f7;}
+.ce li{border-bottom: 1px solid #f7f7f7;}
+.ce li a{padding: 10px 10px 10px 100px;color:rgb(50,50,50);display:block;cursor:pointer;font-size:15px;}
+.ce li .dqian{background:none}
+.ce li a:hover{background:#eaf6ff;border-left:2px solid #1569a8;font-size: 17px;}
+.ce li .xz{background:#eaf6ff;border-left:2px solid #1569a8;font-size: 17px;}
+
+.er{display:none;width:250px;background:#f7f7f7;}
+.er li{width:100%;border-bottom-width:0px;}
+.er li a{display:block;color:rgb(100,100,100);background:none;font-size: 13px;}
+.er li a:hover,.er li .sen_x{background:#eaf6ff;border-left:2px solid #1569a8;font-size: 15px;}
+</style>
+<script type="text/javascript">
+    $(function () {
+        $(".ce > li > a").click(function () {
+            $(this).addClass("xz").parents().siblings().find("a").removeClass("xz");
+            $(this).parents().siblings().find(".er").hide(300);
+            $(this).siblings(".er").toggle(300);
+            $(this).parents().siblings().find(".er > li > .thr").hide().parents().siblings().find(".thr_nr").hide();
+
+        })
+
+        $(".er > li > a").click(function () {
+            $(this).addClass("sen_x").parents().siblings().find("a").removeClass("sen_x");
+            $(this).parents().siblings().find(".thr").hide(300);
+            $(this).siblings(".thr").toggle(300);
+        })
+    })
+
+    function ceClick(obj){
+        $(obj).addClass("xz").parents().siblings().find("a").removeClass("xz");
+        $(obj).parents().siblings().find(".er").hide(300);
+        $(obj).siblings(".er").toggle(300);
+        $(obj).parents().siblings().find(".er > li > .thr").hide().parents().siblings().find(".thr_nr").hide();
+    }
+
+    function erClick(obj) {
+        $(obj).addClass("sen_x").parents().siblings().find("a").removeClass("sen_x");
+        $(obj).parent().parent().prev().removeClass("xz");
+        $(obj).parents().siblings().find(".thr").hide(300);
+        $(obj).siblings(".thr").toggle(300);
+    }
+
+</script>
+
+<div style="background-color:white;">
+    <div class="container mt10">
+        <div class="row-fluid user-container" style="margin-bottom:30px;">
+            <div class="span3">
+                <div style="background-color:#f7f7f7;width:250px;">
+                    <div style="text-align:center;padding-top:30px;"><img src="/../../Content/img/account01.png" style="width:120px;height:120px;" /></div>
+                    <div style="text-align:center;padding-top:10px;">171****3545</div>
+                    <div style="text-align:center;padding-top:10px;">
+                        <img src="/../../Content/img/account02.png" style="width:30px;height:30px;" />
+                            <img src="/../../Content/img/account03.png" style="width:30px;height:30px;" />
+                        <img src="/../../Content/img/account07.png" style="width:30px;height:30px;" />
+                    </div>
+                    <div style="text-align:center;padding-top:20px;padding-bottom:30px;">
+                            <a class="btn btn-orange" style="border-radius:10px;width:90px;" href="/Account/SignIn" data-confirm-msg="" data-callback="$.alertMsg('签到成功',Data,function(){ $.reloadPage()})">立即签到</a>
+                    </div>
+                </div>
+                <ul class="ce">
+                    <li> <a id="ce1" href="/Account/IndexNew" style="background:url(../../Content/img/account18.png) no-repeat 50px center;">账户总览</a> </li>               
+                    <li> <a id="ce2" style="background:url(../../Content/img/account19.png) no-repeat 50px center;">账户管理</a>
+                        <ul class="er">                            
+                            <li> <a id="ce21" href="/Account/MessageCenter">安全中心</a> </li>
+                            <li> <a id="ce22" href="/Account/RechargeWithdrawal">充值提现</a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a  id="ce3" style="background:url(../../Content/img/account20.png) no-repeat 50px center;">投资管理 </a>
+                        <ul class="er">
+                            <li> <a id="ce31" href="/Account/MyInvestmentList" >我的投资</a> </li>
+                            
+                            <li> <a id="ce33" href="/account/AutoInvestProject">自动投标</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a id="ce4" href="/Account/MyBorrows" style="background:url(../../Content/img/account21.png) no-repeat 50px center;">借款管理</a> </li>  
+                    <li>
+                        <a id="ce5" style="background:url(../../Content/img/account22.png) no-repeat 50px center;">我的礼包 </a>
+                        <ul class="er">
+                            <li> <a id="ce51" href="/Account/mycoupon">我的优惠卷</a> </li>
+                            <li> <a id="ce52" href="/account/myrmoney">我的R币</a> </li>
+                        </ul>
+                    </li>       
+                    <li> <a id="ce6" href="/Account/myfriends" style="background:url(../../Content/img/account23.png) no-repeat 50px center;">邀请好友</a> </li>               
+                    <li> <a id="ce7" href="/Account/indexnew" style="background:url(../../Content/img/account24.png) no-repeat 50px center;">消息中心</a> </li>           
+                    <li style="height:30px;"></li>
+                    <div class="clear"></div>
+                </ul>
+
+            </div>
+            <div class="span9">
+                
+
+
+
+<div>
+    <div>安全中心</div>
+    <hr />
+    <div style="border:1px solid gainsboro;height:90px;padding:20px 20px 10px 10px;display:none;">
+        <div style="float:left;"><img src="/Content/img/account31.png" style="width:80px;height:80px;"/> </div>
+        <div style="float:left;"><div style="margin-top:10px;margin-left:20px;font-size:18px;width:110px;">存管账户</div><div style="margin-top:20px;margin-left:20px;font-size:14px;color:gainsboro;"><img src="/Content/img/account40.png" style="width:15px;height:15px;" /> 已开通</div> </div>
+        <div style="float:left;margin-left:50px;line-height:80px;">润阳贷与上海银行合作资金存管，保障您的资金安全！</div>
+        <div style="float:right;line-height:80px;"><a href="#" class="btn btn-orange" style="width:120px;">查看</a> </div>
+    </div>
+    <div style="border:1px solid gainsboro;height:90px;padding:20px 0px 10px 0px;margin-top:20px;position:relative;" id="JYphonenumberDivPartent">
+        <div style="margin-left:10px;margin-right:20px;">
+            <div style="float:left;"><img src="/Content/img/account32.png" style="width:80px;height:80px;" /> </div>
+            <div style="float:left;"><div style="margin-top:10px;margin-left:20px;font-size:18px;width:110px;">交易手机号码</div><div style="margin-top:20px;margin-left:20px;font-size:14px;color:gainsboro;"><img src="/Content/img/account40.png" style="width:15px;height:15px;" /> 已开通</div> </div>
+            <div style="float:left;margin-left:50px;"><div style="margin-top:10px;font-size:14px;width:110px;">171****3545</div><div style="margin-top:25px;font-size:14px;">接收账户信息和资金变动短信通知</div> </div>
+            <div style="float:right;line-height:80px;"><span href="#" class="btn btn-orange" style="width:120px;" onclick="showJYphonenumber()">修改</span> </div>
+        </div>
+        <div class="modal modalChange" style="margin-top:100px;background-color:#f7f7f7;padding-top:20px;padding-left:110px;padding-bottom:20px;display:none;" id="JYphonenumberDiv">
+            <form class="mt10" data-submit="true" enctype="multipart/form-data" action="/Account/ChangePhoneNumber" method="post" target="_blank" autocomplete="off">
+                <div>请输入验证信息</div>
+                <div style="margin-top:10px;"><input type="password" name="pwd" autocomplete="off" value="" placeholder="请输入您的登入密码" /></div>
+                <div style="background-color:#eaf6ff;border:1px dashed #74b9ed;line-height:30px;padding-left:10px;display:inline-block;"><i class="icon-volume-up"></i> 温馨提示：修改之前请勿停用旧手机号！</div>
+                <div style="margin-top:30px;">
+                    <button class="btn btn-orange" style="width:120px;" data-toggle="SubmitModal">确定</button>
+                    <a href="#" data-dismiss="modal" class="btn btn-sq" style="width:120px;" onclick="showJYphonenumber()">取消</a>
+                </div>                
+            </form>
+        </div>
+    </div>
+    <div style="border:1px solid gainsboro;height:90px;padding:20px 20px 10px 10px;margin-top:20px;">
+        <div style="float:left;"><img src="/Content/img/account33.png" style="width:80px;height:80px;" /> </div>        
+            <div style="float:left;"><div style="margin-top:10px;margin-left:20px;font-size:18px;width:110px;">实名认证</div><div style="margin-top:20px;margin-left:20px;font-size:14px;color:gainsboro;"><img src="/Content/img/account40.png" style="width:15px;height:15px;" /> 已开通</div> </div>
+            <div style="float:left;margin-left:50px;line-height:80px;">马* / 3412********086013</div>
+    </div>
+    <div style="border:1px solid gainsboro;height:90px;padding:20px 20px 10px 10px;margin-top:20px;">
+        <div style="float:left;"><img src="/Content/img/account34.png" style="width:80px;height:80px;" /> </div>
+            <div style="float:left;"><div style="margin-top:10px;margin-left:20px;font-size:18px;width:110px;">绑定银行卡</div><div style="margin-top:20px;margin-left:20px;font-size:14px;color:gainsboro;"><img src="/Content/img/account40.png" style="width:15px;height:15px;" /> 已绑定</div> </div>
+            <div style="float:left;margin-left:50px;line-height:80px;font-size:14px;">润阳贷与上海银行合作资金存管，保障您的资金安全！</div>
+            <div style="float:right;line-height:80px;"><a href="/Account/ChangeCard" class="btn btn-orange" style="width:120px;" target="_blank">更换银行卡</a> </div>
+        
+    </div>
+    <div style="border:1px solid gainsboro;height:90px;padding:20px 0px 10px 0px;margin-top:20px;" id="phonenumberDivPartent">
+        <div style="margin-left:10px;margin-right:20px;">
+            <div style="float:left;"><img src="/Content/img/account35.png" style="width:80px;height:80px;" /> </div>
+            <div style="float:left;"><div style="margin-top:10px;margin-left:20px;font-size:18px;width:110px;">登录密码</div><div style="margin-top:20px;margin-left:20px;font-size:14px;color:gainsboro;"><img src="/Content/img/account40.png" style="width:15px;height:15px;" /> 已设置</div> </div>
+            <div style="float:left;margin-left:50px;"><div style="margin-top:25px;font-size:14px;">登录润阳贷账户时需要输入的密码</div> </div>
+            <div style="float:right;line-height:80px;"><span href="#" class="btn btn-orange" style="width:120px;" onclick="showPhonenumber()">修改</span> </div>
+        </div>
+        <div style="margin-top:100px;background-color:#f7f7f7;padding-top:20px;padding-left:110px;padding-bottom:20px;display:none;" id="phonenumberDiv">
+            <form class="mt10" action="/Account/DoResetPassword" method="post">
+                <div class="control-group" style="margin-top:10px;"><span style="width:150px;font-size:14px;">原密码:</span> <input type="password" name="pwd" autocomplete="off" value="" placeholder="请输入您的登入密码" style="margin-left:80px;" /></div>
+                <div class="control-group" style="margin-top:10px;"><span style="width:150px;font-size:14px;">新密码:</span> <input type="password" name="pwd" autocomplete="off" value="" placeholder="请输入您的新登入密码" style="margin-left:80px;" /></div>
+                <div class="control-group" style="margin-top:10px;"><span style="width:150px;font-size:14px;">确认密码:</span> <input type="password" name="pwd" autocomplete="off" value="" placeholder="请再次输入您的新登入密码" style="margin-left:65px;" /></div>
+                <div style="margin-top:30px;padding-left:130px;">
+                    <a href="#" class="btn btn-orange" style="width:200px;" data-submit="true" data-callback="onSuccess(rst)">提交</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div style="border:1px solid gainsboro;height:90px;padding:20px 20px 10px 10px;margin-top:20px;">
+        <div style="float:left;"><img src="/Content/img/account36.png" style="width:80px;height:80px;" /> </div>
+        <div style="float:left;">
+            <div style="margin-top:10px;margin-left:20px;font-size:18px;width:110px;">交易密码</div>
+            <div style="margin-top:20px;margin-left:20px;font-size:14px;color:gainsboro;">
+                    <img src="/Content/img/account40.png" style="width:15px;height:15px;" />
+                        <span>已设置</span>
+            </div>
+        </div>
+        <div style="float:left;margin-left:50px;line-height:80px;font-size:14px;">账户资金变动时需输入交易密码，建议您交易密码区别于登录密码</div>
+        <div style="float:right;line-height:80px;">
+                <a href="/Account/ResetTradePassword" class="btn btn-orange" style="width:120px;">修改</a>
+        </div>
+    </div>
+
+    <div style="border:1px solid gainsboro;height:90px;padding:20px 0px 10px 0px;margin-top:20px;" id="EmailDivPartent">
+        <div style="margin-left:10px;margin-right:20px;">
+            <div style="float:left;"><img src="/Content/img/account37.png" style="width:80px;height:80px;" /> </div>
+                <div style="float:left;"><div style="margin-top:10px;margin-left:20px;font-size:18px;width:110px;">电子邮箱</div><div style="margin-top:20px;margin-left:20px;font-size:14px;color:gainsboro;"><img src="/Content/img/account39.png" style="width:15px;height:15px;" /> 未绑定</div> </div>
+                <div style="float:left;margin-left:50px;"><div style="margin-top:25px;font-size:14px;">保证账户安全</div> </div>
+                <div style="float:right;line-height:80px;"><span href="#" class="btn btn-orange" style="width:120px;" onclick="showEmail()">去验证</span> </div>
+        </div>
+        <div style="margin-top:100px;background-color:#f7f7f7;padding-top:20px;padding-left:110px;padding-bottom:20px;display:none;" id="EmailDiv">
+            <form class="mt10" action="/Account/DoBindEmail" method="post">
+                <div style="margin-top:10px;"><span style="width:150px;font-size:14px;">电子邮箱地址:</span> <input type="password" name="Email" autocomplete="off" value="" placeholder="请输入您的电子邮箱地址" style="margin-left:65px;" /></div>
+                <div style="margin-top:30px;padding-left:130px;">
+                    <a href="#" class="btn btn-orange" style="width:200px;margin-left:25px;" data-submit="true" data-callback="onSuccess(rst)">提交</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div style="border:1px solid gainsboro;height:90px;padding:20px 0px 10px 0px;margin-top:20px;" id="QuestionnaireDivPartent">
+        <div style="margin-left:10px;margin-right:20px;">
+            <div style="float:left;"><img src="/Content/img/account38.png" style="width:80px;height:80px;" /> </div>
+                <div style="float:left;"><div style="margin-top:10px;margin-left:20px;font-size:18px;width:110px;">风险承受能力</div><div style="margin-top:20px;margin-left:20px;font-size:14px;color:gainsboro;"><img src="/Content/img/account40.png" style="width:15px;height:15px;" /> 已绑定</div> </div>
+                <div style="float:left;margin-left:50px;"><div style="margin-top:25px;font-size:14px;">投资者类型：谨慎型</div> </div>
+                <div style="float:right;line-height:80px;"><span href="#" class="btn btn-orange" style="width:120px;" onclick="showQuestionnaire()">查看评估报告</span> </div>
+        </div>
+        <div style="margin-top:100px;background-color:#f7f7f7;padding-top:20px;padding-left:10px;padding-right:10px;padding-bottom:40px;display:none;" id="QuestionnaireDiv">
+            <img src="/Content/img/account41.png" />
+            <div style="background-color:#eaf6ff;border:1px dashed #74b9ed;line-height:30px;padding-left:10px;margin-top:20px;">平台建议您最少每年或当您的状况有任何重大转变时，对您的风险评估进行检视，以确保您的投资决定与您对风险所持的态度一致。</div>
+        </div>
+    </div>
+</div>
+
+
+<div id="div2" class="text-center hide">
+    <h3>密码修改成功！</h3>
+    <p></p>
+    <a href="javascript:parent.location.reload()" class="btn btn-primary btn-xlarge">点击返回</a>
+</div>
+
+<div id="div3" class="text-center hide">
+    <h3>验证邮件已发送，请在3小时之内登录邮箱完成确认步骤！</h3>
+    <p></p>
+    <a href="javascript:parent.location.reload()" class="btn btn-primary btn-xlarge">点击返回</a>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-section row-fluid aaa" style="border-bottom:none;">
+                <div class="span2">
+                    <strong>公司信息</strong>
+                    <ul class="footer-links">
+                        <li><a href="/MV-Introduction.html" style="color:white;font-size:14px;padding-left:5px;margin-top:10px;">公司介绍</a></li>
+                        <li><a href="/MV-Team.html" style="color:white;font-size:14px;padding-left:5px;">管理团队</a></li>
+                        <li><a href="/MV-Ygfc.html" style="color:white;font-size:14px;padding-left:5px;">员工风采</a></li>
+                        <li><a href="/MV-Contact.html" style="color:white;font-size:14px;padding-left:5px;">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="span2">
+                    <strong>相关政策</strong>
+                    <ul class="footer-links">
+                        <li><a href="/MV-Security.html" style="color:white;font-size:14px;padding-left:5px;margin-top:10px;">安全保障</a></li>
+                        <li><a href="/MV-Rate.html" style="color:white;font-size:14px;padding-left:5px;">费率说明</a></li>
+                        <li><a href="/MV-Privacy.html" style="color:white;font-size:14px;padding-left:5px;">隐私保护</a></li>
+                        <li><a href="/MV-Disclaimer.html" style="color:white;font-size:14px;padding-left:5px;">免责声明</a></li>
+                    </ul>
+                </div>
+                <div class="span2">
+                    <strong>常见问题</strong>
+                    <ul class="footer-links">
+                        <li><a href="/MV-Explanation.html" style="color:white;font-size:14px;padding-left:5px;margin-top:10px;">名词解释</a></li>
+                        <li><a href="/MV-Login.html" style="color:white;font-size:14px;padding-left:5px;">注册登录</a></li>
+                        <li><a href="/MV-Trading.html" style="color:white;font-size:14px;padding-left:5px;">投资交易</a></li>
+                        <li><a href="/MV-Authentication.html" style="color:white;font-size:14px;padding-left:5px;">实名认证</a></li>
+                    </ul>
+                </div>
+                <div class="span3">
+                    <ul class="footer-links">
+                        <li><img style="width:25px;height:25px;margin-bottom:5px;" src="/Lib/myFiles/img/home/32.png" /><span style="line-height:40px;height:40px;font-size:22px; color:cornflowerblue;margin-left:5px;">400-115-8001</span></li>
+                        <li style="margin-top:10px;padding-left:30px;font-size:14px;">客服热线 ( 周一至周五8:30-18:00 )</li>
+                        <li style="margin-top:10px;padding-left:30px;font-size:14px;">官方QQ群：540799096</li>
+                        <li style="margin-top:10px;padding-left:28px;">
+                            <a href="#" onclick="kfLink.click();" style="margin-left:0;">
+                                <img style="width:100px;height:30px;" src="/Lib/myFiles/img/home/33.png" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span3">
+                    <div class="row-fluid">
+                        <div class="pull-left">
+                            <h4>苹果APP</h4>
+                            <div>
+                                <img src="/Content/img/苹果APP下载.png" />
+                            </div>
+                        </div>
+                        <div class="ml40 pull-left">
+                            <h4 class="mt10">安卓APP</h4>
+                            <div>
+                                <img src="/Content/img/安卓APP下载.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="pull-left">
+                            <h4>微信入口</h4>
+                            <div>
+                                <img src="/Content/img/m.runyangdai.com.png" />
+                            </div>
+                        </div>
+                        <div class="ml40 pull-left">
+                            <h4 class="mt10">微信关注</h4>
+                            <div>
+                                <img src="/Content/img/微信服务号.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section row-fluid" style="border-top:1px solid gray;margin-top:20px;">
+                <div class="span2">
+                    <h4>友情链接</h4>
+                </div>
+                <div class="span10">
+                    <a rel="nofollow" href="http://www.wdzj.com/" target="_blank">网贷之家</a>
+                    <a rel="nofollow" href="http://www.p2peye.com/" target="_blank">网贷天眼</a>
+                    <a rel="nofollow" href="http://www.76676.com" target="_blank">76676</a>
+                    <a rel="nofollow" href="http://www.wddoor88.com/" target="_blank">网贷铺子</a>
+                    <a rel="nofollow" href="http://www.wdzx.com/" target="_blank">网贷中心</a>
+                    <a rel="nofollow" href="http://www.wd361.com/" target="_blank">网贷互联</a>
+                    <a rel="nofollow" href="http://www.licaizhijia.com/" target="_blank">理财之家</a>
+                    <a rel="nofollow" href="http://www.wangdaidongfang.com/" target="_blank">网贷东方</a>
+                    <a rel="nofollow" href="http://jrjt.yangzhou.gov.cn/" target="_blank">扬州现代</a>
+                </div>
+                <div class="span2" style="margin-left:0px;">
+                </div>
+                <div class="span10">
+                    <a rel="nofollow" href="http://www.wangdaiwanjia.com" target="_blank">网贷玩家</a>
+                    <a rel="nofollow" href="http://www.p2pjd.com" target="_blank">网贷经典</a>
+                    <a rel="nofollow" href="http://www.wangdaijiamen.com" target="_blank">网贷家门</a>
+                    <a rel="nofollow" href="http://www.p2pxing.com" target="_blank">网贷之星</a>
+                    <a rel="nofollow" href="https://www.duozhuan.cn/" target="_blank">多赚</a>
+                    <a rel="nofollow" href="https://www.wangdaitiandi.com" target="_blank">网贷天地</a>
+                    <a rel="nofollow" href="http://www.wangdailuyan.com" target="_blank">网贷</a>
+                    <a rel="nofollow" href="http://www.51wangdai.com" target="_blank">51网贷</a>
+                    <a rel="nofollow" href="http://jrjt.yangzhou.gov.cn/" target="_blank"></a>
+                </div>
+            </div>
+            <div class="footer-section last">
+                <div class="footer-copyright mt20">
+                    <span>Copyright 2016 © All Rights Reserved.</span>
+                    <span>扬州恒安隆投资咨询有限公司</span>
+                    <span>
+                        <a href="http://www.miibeian.gov.cn" target="_blank">苏ICP备 16050639号-4</a>
+                    </span>
+                </div>
+                <div class="text-center">
+                    <a id='___szfw_logo___' href='//credit.szfw.org/CX20160524015303590199.html' target='_blank'>
+                        <img style="width:127px;height:47px;" src="/Content/img/cert.png" />
+                    </a>
+                    <script type='text/javascript'>(function () { document.getElementById('___szfw_logo___').oncontextmenu = function () { return false; } })();</script>
+                    <script src="//kxlogo.knet.cn/seallogo.dll?sn=e16052532100063605zawt000000&size=0"></script>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    
+<div class="modal hide fade" id="confirmModal">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            &times;
+        </button>
+        <h3>操作确认</h3>
+    </div>
+    <div class="modal-body">
+        <p></p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-danger btn-sq btn-xlarge">确定</button>
+        <a href="#" data-dismiss="modal" class="btn btn-sq btn-xlarge">取消</a>
+    </div>
+</div>
+
+<div class="modal hide fade" id="alertModal">
+    <div class="modal-header">
+        <img src="/Content/img/logo.png" />
+        <a href="#" class="close" data-dismiss="modal">&times;</a>
+    </div>
+    <div class="modal-body">
+    </div>
+</div>
+
+
+    <link href="/Content/weixin/css/style.css" rel="stylesheet" />
+    <div id="moquu_wmaps" class="moquu_wmaps"><a href="javascript:void(0)">2</a></div>
+    <div id="moquu_wshare"><a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4000008287&amp;f=1&amp;ty=1" id="kfLink" class='WX-link'></a></div>
+    <a id="moquu_top" href="javascript:void(0)"></a>
+
+
+    <div id="loadingBg" class="modal-backdrop loading-bg hide">
+        <img src="/Content/img/loading.gif" />
+    </div>
+
+
+
+    <script type="text/javascript">
+        function onGetSigtSigu(url) {
+            $('#kfLink').prop('href', url);
+        }
+        onGetSigtSigu("tencent://message/?Menu=yes&uin=938010199&Service=58&SigT=90D1E2D0C991EA6CC1B3F0C258956B798768980A1CEB1AF1868422CD56729ECAF59798DDFA368783FE7BBB744B2A1A6EDE4FBB64883F65D05A360DA8AB42E306DAA3C68D77AF4D234879D7D965C80A25&SigU=27BD13D3DDF5D171C0E287949704BEDDA472F48713DE19DABA7DD4D6BF7C360E3DFFF8B51452FB2B");
+        setInterval(function () {
+            $.post("/getkflink", {}, function (data) {
+                if (data.success) {
+                    if (data.data.length > 0) {
+                        onGetSigtSigu(data.data);
+                    }
+                }
+            });
+        }, 180000);
+
+        $(function () {
+            $('#moquu_top').click(function () { $('html,body').animate({ scrollTop: '0px' }, 800); });
+            $('#moquu_wmaps').click(function () { window.location.href = '/Account/Questionnaire' });
+        })
+    </script>
+
+    <span id="cnzz_stat_icon_1260073516"></span>
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260073516&web_id=1260073516" language="JavaScript"></script>
+    <script src="//hm.baidu.com/hm.js?8d4eec66355c0df862e6ec7ae0064a36" type="text/javascript"></script>
+
+<!-- Visual Studio Browser Link -->
+<script type="application/json" id="__browserLink_initializationData">
+    {"appName":"Chrome","requestId":"d1307e616ad84127b9c390000e776099"}
+</script>
+<script type="text/javascript" src="http://localhost:3793/5b0e8f87239049b18ec6fccac7ba7910/browserLink" async="async"></script>
+<!-- End Browser Link -->
+
+</body>
+</html>

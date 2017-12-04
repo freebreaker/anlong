@@ -1,0 +1,46 @@
+.cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 99;
+}
+
+.modal-ct{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background: #fff;
+    z-index: 100;
+}
+
+.modal-ct .content{
+    width: 40%;
+    height: 60%;
+    /* background-image: url("../img/ShanghaiBank.png"); */
+    background-size:100% 100%;
+}
+
+.modal-ct .content a{
+    text-decoration: none;
+    position: absolute;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color:#0f1b3a;
+    left:50%;
+    bottom:20%;
+    margin-left: -60px;
+}
+
+.modal-ct .content a:hover{
+    font-size: 31px;
+    line-height: 31px;
+    transition: all 0.5s;
+}

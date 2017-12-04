@@ -1,0 +1,77 @@
+.idSecurity{
+    width: 140px;
+    padding: 5px 10px;
+    color:#fff;
+    background-color: #f5a100;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.idSecurity:hover{
+    background-color: #ffb932;
+}
+
+.control-group{
+    margin-bottom: 20px;
+}
+
+.control-group .control-label {
+    display: block;
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.control-group .control-label {
+    display: block;
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.control-group input{
+    display: inline-block;
+    width: 200px;
+    border-radius: 0;
+    margin-left: 20px;
+    padding: 5px;
+    line-height: 20px;
+}
+
+.control-group select{
+    display: inline-block;
+    width: 200px;
+    border-radius: 0;
+    margin-left: 20px;
+    padding: 5px;
+    line-height: 20px;
+}
+
+.control-group p{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.control-group button{
+    position: relative;
+    left:-100px;
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+    margin-top: 50px;
+    margin-left: 50%;
+    font-size: 20px;
+    color:#fff;
+    background-color: #f5a100;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    text-align: center;
+}

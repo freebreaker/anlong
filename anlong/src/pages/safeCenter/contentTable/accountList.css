@@ -1,0 +1,22 @@
+.accountList ul{
+    display: block;
+    width: 100%;
+}
+
+
+.accountList ul li{
+    height: 40px;
+    font-size: 17px;
+    line-height: 40px;
+    background: #f7f7f7;
+}
+
+.accountList ul li:hover{
+    border-left: 2px solid #4893cb;
+    background: #eaf6ff;
+}
+
+
+.accountList ul li:hover a{
+    color: rgb(50,50,50);
+}
