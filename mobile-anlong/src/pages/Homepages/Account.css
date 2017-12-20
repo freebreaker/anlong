@@ -1,0 +1,22 @@
+
+.AccountItem{
+    width: 100%;
+    height: auto;
+  }
+  
+.AccountItemRow {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.InvestLink{
+    box-sizing: border-box;
+    border:1px solid #ddd;
+}
+
+
+
+

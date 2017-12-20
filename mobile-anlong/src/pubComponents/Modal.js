@@ -20,11 +20,13 @@ class Modal extends Component {
 
   render() {
       const ActivityLink = this.props.ActivityLink
+      const ContentStyle = this.props.style
+
     return (
         this.state.ifShow?<div id="modal-1" className="modal-dialog">
             <div className="cover" onClick={this.hideModal.bind(this)}></div>
             <div className="modal-ct">
-                <div className="content">
+                <div className="content" style={ContentStyle}>
                     <a href={ActivityLink} target="view_window">{this.state.ButtonValue}</a>
                 </div>
             </div>  
