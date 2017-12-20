@@ -18,7 +18,6 @@ import configureStore from '../app/store'
 
 import routes from '../app/routes'
 
-
 var express = require("express");
 
 const app = express()
@@ -54,20 +53,24 @@ const handleRender = (req,res)=>{
         } else if (renderProps) {
           const store = configureStore();
           const state = store.getState();
-    
-          Promise.all([
-            // store.dispatch(fetchList()),
-            // store.dispatch(fetchItem(renderProps.params.id))
-          ])
-          .then(() => {
-              console.log('next question')
-            const html = renderToString(
+          
+          console.log(renderProps)
+          // Promise.all([
+          //   console.log('promise')
+          //   // store.dispatch(fetchList()),
+          //   // store.dispatch(fetchItem(renderProps.params.id))
+          // ])
+          // .then(() => {
+          //     console.log('next question')
+            const html = ReactDOMServer.renderToString(
               <Provider store={store}>
-                <RoutingContext {...renderProps} />
+                  {() =>
+                    <RoutingContext {...renderProps} />
+                  }
               </Provider>
             );
-            res.end(renderFullPage(html, store.getState()));
-          });
+            res.end(renderFullPage(html, {}));
+          // });
         } else {
           res.status(404).end('Not found');
         }

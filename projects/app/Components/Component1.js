@@ -1,6 +1,6 @@
 //Component1.jsx
 import React from 'react';
-import './app.css'
+// import './app.scss'
 class Component1 extends React.Component {
     render() {
         return (
